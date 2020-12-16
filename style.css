@@ -1,0 +1,45 @@
+body {
+  background-image: url(download.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Nerko One', cursive;
+}
+
+.div1{
+  background-color: #c56183;
+  width: 30%;
+  border: 15px solid #da9ff9;
+  border-radius: 12px;
+  text-align: left;
+  font-family: 'Nerko One', cursive;
+  font-size: 20px;
+  padding: 50px;
+  padding-bottom: 50px;
+  margin: 20px;
+  transform: translateX(110%)
+}
+input[type=text], input[type=email], input[type=number], input[type=password]{
+
+  margin: 6px 0;
+  padding: 4px 10px;
+  width: 195px;
+  display: inline-block;
+  background-color: #e0dede;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: courier;
+  font-size: 20px;
+}
+input[type=text], input[type=email], input[type=number]:focus{
+	}
+
+img{
+	margin: auto;
+	height: 150px;
+	width: 150px;
+}
+img:hover {
+  transform: scaleX(-1);
+}
